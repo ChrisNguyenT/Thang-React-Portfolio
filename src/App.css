@@ -44,7 +44,7 @@ body{
 }
 
 body{
-  height: 100vh;
+  /* height: 100vh; */
   color: rgb(253, 253, 231);
   font-family: 'Noto Sans', sans-serif;
   background-color: rgb(26,26,26);
@@ -128,13 +128,13 @@ nav{
   transition: all 0.3s ease;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:945px){
   .links{
     width: 50%;
   }
   body{
     overflow-x: hidden;
-    height: 100vh;
+    /* height: 100vh; */
     /* position: fixed; */
   }
   #resumePreview img{
@@ -145,12 +145,13 @@ nav{
     margin-left: 100px !important;
     margin-right: 50px !important;
   }
+
 }
 
 @media screen and (max-width:768px){
   html, body{
     overflow-x: hidden;
-    height: 100vh;
+    /* height: 100vh; */
     position: relative;
     --top-spacing: 100px;
     scroll-padding-top: var(--top-spacing);
@@ -236,7 +237,8 @@ nav{
 .contactLinks{
   display: flex;
   justify-content: space-around;
-  
+
+  width: 100vw;
 }
 
 .contactLinks li{
@@ -249,7 +251,7 @@ nav{
   background-color: rgb(32,34,37);
   border-radius: 0.5rem;
   margin: 5px;
-  
+  text-align: center;
 }
 
 .contactLinks a{
@@ -269,7 +271,7 @@ nav{
 @media screen and (max-width:768px){
   .contactLinks{
     display: flex;
-    flex-direction: column;
+    
     align-items: center;
   }
   .Project1 .overlay1{
@@ -283,6 +285,8 @@ nav{
   .Project4, .Project2 {
     margin-top: 0 !important;
   }
+
+
   #resumePreview img{
     height: 75%;
     width: 75%;
@@ -294,6 +298,7 @@ nav{
 }
 
 /* Work section properties */
+
 .container{
   /* background: white; */
   min-height: 20vh;
@@ -449,3 +454,11 @@ h4 a:hover{
   color: rgb(78, 117, 194);
   cursor: auto;
 }
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: rgba(32, 34, 37, 0.966);
+}
+

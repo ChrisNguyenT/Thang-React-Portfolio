@@ -6,15 +6,26 @@ function Projects() {
         <section id="work">
         <h2>Projects</h2>
         <content className="container">
+        <div className="fouricons">
+            <content className="container0">
           <div className="Project1">
             <a href="https://github.com/thangnt336/-tock-News" target="_blank">
-              <img src="/images/stocknew.png" className="firstPic" alt="$tock News"/>
+              <img src="/images/stocknew.png" style={{width:262 , height:150}} className="firstPic" alt="$tock News"/>
               <div className="overlay1">
                 <div className="text">$tock News</div>
               </div>
             </a>
           </div>
-          <div className="fouricons">
+          <div className="Project1">
+            <a href="https://github.com/thangnt336/-tock-News" target="_blank">
+              <img src="/images/stocknew.png" style={{width:262 , height:150}} className="firstPic" alt="$tock News"/>
+              <div className="overlay1">
+                <div className="text">$tock News</div>
+              </div>
+            </a>
+          </div>
+          </content>
+          
             <content className="container1">
               <div className="Project2">
                 <a href="https://thangnt336.github.io/Weather-Dashboard/" target="_blank">
