@@ -97,6 +97,11 @@ nav{
   font-size: 20px;
 }
 
+.menu a{
+  text-decoration: none;
+  color: rgb(253, 253, 231);
+}
+
 .links{
   display: flex;
   justify-content: space-around;
@@ -462,3 +467,17 @@ footer {
   background-color: rgba(32, 34, 37, 0.966);
 }
 
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  min-height: 20vh;
+  /* width: 93%; */
+  background-color: rgb(32,34,37);
+  border-radius: 0.5rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}

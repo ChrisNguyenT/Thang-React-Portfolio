@@ -1,18 +1,43 @@
 import React from "react";
 
-function Contact() {
-   <form method="POST">
-   <label htmlFor="name">Name</label>
-   <input type="text" name="name" />
+const Contact = () => (
+  <form className="contact-form" method="POST" action="/contact">
+    <div className="form-field">
+      <label htmlFor="name">
+        <div className="label-content">Name:</div>
+        <input type="text" name="name" required />
+      </label>
+    </div>
 
-   <label htmlFor="email">Email</label>
-   <input type="email" name="email" />
+    <div className="form-field">
+      <label htmlFor="email">
+        <div className="label-content">Email:</div>
+        <input type="email" name="email" required />
+      </label>
+    </div>
 
-   <label htmlFor="message">Message</label>
-   <textarea name="message" rows="3"></textarea>
+    <div className="form-field">
+      <label htmlFor="message">
+        <div className="label-content">Message:</div>
+        <textarea className="stretch" name="message" rows="5" required />
+      </label>
+    </div>
 
-   <input type="submit" />
- </form>
-}
+    <button type="submit">Send</button>
+
+    <div>
+      { window.location.hash === '#success' &&
+        <div id="success">
+          <p>Your message has been sent!</p>
+        </div>
+      }
+      { window.location.hash === '#error' &&
+        <div id="error">
+          <p>An error occured while submitting the form.</p>
+        </div>
+      }
+    </div>
+  </form>
+)
 
 export default Contact;

@@ -17,10 +17,10 @@ function Projects() {
             </a>
           </div>
           <div className="Project1">
-            <a href="https://github.com/thangnt336/-tock-News" target="_blank">
-              <img src="/images/stocknew.png" style={{width:262 , height:150}} className="firstPic" alt="$tock News"/>
+            <a href="https://github.com/thangnt336/Employee-Management-System" target="_blank">
+              <img src="/images/employee.png" style={{width:262 , height:150}} className="firstPic" alt="Employee"/>
               <div className="overlay1">
-                <div className="text">$tock News</div>
+                <div className="text">Employee Management</div>
               </div>
             </a>
           </div>
@@ -65,9 +65,10 @@ function Projects() {
           </div>
         </content>
         <content className="container3">
-          <h4 className="repository" onclick="openList1()">View Repositories</h4>
+          <h4 className="repository" onClick={openList1}>View Repositories</h4>
           <ol id="ollist" style={{display: "none"}}>
             <li><a href="https://github.com/thangnt336/-tock-News" target="_blank">/$tock News</a></li>
+            <li><a href="https://github.com/thangnt336/Employee-Management-System" target="_blank">/Employee Management</a></li>
             <li><a href="https://github.com/thangnt336/Weather-Dashboard" target="_blank">/Weather Dashboard</a></li>
             <li><a href="https://github.com/thangnt336/Code-Quiz" target="_blank">/Coding Quiz</a></li>
             <li><a href="https://github.com/thangnt336/Password-Generator" target="_blank">/Password Generator</a></li>
@@ -76,6 +77,16 @@ function Projects() {
         </content>
       </section>
     );
+}
+
+function openList1() {
+  var list = document.getElementById("ollist");
+
+  if (list.style.display == "none"){
+      list.style.display = "block";
+  }else{
+      list.style.display = "none";
+  }
 }
 
 export default Projects;
