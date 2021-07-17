@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.405936c5.chunk.css",
-    "main.js": "./static/js/main.501115ab.chunk.js",
-    "main.js.map": "./static/js/main.501115ab.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.cfc618bc.js",
-    "runtime-main.js.map": "./static/js/runtime-main.cfc618bc.js.map",
-    "static/js/2.ca37378a.chunk.js": "./static/js/2.ca37378a.chunk.js",
-    "static/js/2.ca37378a.chunk.js.map": "./static/js/2.ca37378a.chunk.js.map",
-    "index.html": "./index.html",
-    "static/css/main.405936c5.chunk.css.map": "./static/css/main.405936c5.chunk.css.map",
-    "static/js/2.ca37378a.chunk.js.LICENSE.txt": "./static/js/2.ca37378a.chunk.js.LICENSE.txt"
+    "main.css": "/Thang-React-Portfolio/static/css/main.405936c5.chunk.css",
+    "main.js": "/Thang-React-Portfolio/static/js/main.501115ab.chunk.js",
+    "main.js.map": "/Thang-React-Portfolio/static/js/main.501115ab.chunk.js.map",
+    "runtime-main.js": "/Thang-React-Portfolio/static/js/runtime-main.cca0a139.js",
+    "runtime-main.js.map": "/Thang-React-Portfolio/static/js/runtime-main.cca0a139.js.map",
+    "static/js/2.ca37378a.chunk.js": "/Thang-React-Portfolio/static/js/2.ca37378a.chunk.js",
+    "static/js/2.ca37378a.chunk.js.map": "/Thang-React-Portfolio/static/js/2.ca37378a.chunk.js.map",
+    "index.html": "/Thang-React-Portfolio/index.html",
+    "static/css/main.405936c5.chunk.css.map": "/Thang-React-Portfolio/static/css/main.405936c5.chunk.css.map",
+    "static/js/2.ca37378a.chunk.js.LICENSE.txt": "/Thang-React-Portfolio/static/js/2.ca37378a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.cfc618bc.js",
+    "static/js/runtime-main.cca0a139.js",
     "static/js/2.ca37378a.chunk.js",
     "static/css/main.405936c5.chunk.css",
     "static/js/main.501115ab.chunk.js"
