@@ -6,7 +6,7 @@ function Resume() {
         <section id="resume">
         <h2>Resume</h2>
         <div className="resumeStyle">
-          <h4><a href="/images/ResumeThang.pdf" target="_blank">Download Resume</a></h4>
+          <h4><a href="/Thang-React-Portfolio/images/ResumeThang.pdf" target="_blank">Download Resume</a></h4>
         </div>
           
       </section>
