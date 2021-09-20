@@ -1,4 +1,10 @@
 import React from "react";
+import stocknew from "./stocknew.png";
+import weather from "./weather.png";
+import employee from "./employee.png";
+import codequiz from "./codequiz.png";
+import password from "./password.png";
+import workday from "./workday.png";
 
 function Projects() {
     return (
@@ -10,7 +16,7 @@ function Projects() {
             <content className="container0">
           <div className="Project1">
             <a href="https://github.com/thangnt336/-tock-News" target="_blank">
-              <img src="/Thang-React-Portfolio/images/stocknew.png" style={{width:262 , height:150}} className="firstPic" alt="$tock News"/>
+              <img src={stocknew} style={{width:262 , height:150}} className="firstPic" alt="$tock News"/>
               <div className="overlay1">
                 <div className="text">$tock News</div>
               </div>
@@ -18,7 +24,7 @@ function Projects() {
           </div>
           <div className="Project1">
             <a href="https://github.com/thangnt336/Employee-Management-System" target="_blank">
-              <img src="/Thang-React-Portfolio/images/employee.png" style={{width:262 , height:150}} className="firstPic" alt="Employee"/>
+              <img src={employee} style={{width:262 , height:150}} className="firstPic" alt="Employee"/>
               <div className="overlay1">
                 <div className="text">Employee Management</div>
               </div>
@@ -29,7 +35,7 @@ function Projects() {
             <content className="container1">
               <div className="Project2">
                 <a href="https://thangnt336.github.io/Weather-Dashboard/" target="_blank">
-                  <img src="/Thang-React-Portfolio/images/weather.png" alt="Weather Dashboard" style={{width:262 , height:150}}></img>
+                  <img src={weather} alt="Weather Dashboard" style={{width:262 , height:150}}></img>
                   <div className="overlay1">
                     <div className="text">Weather Dashboard</div>
                   </div>
@@ -37,7 +43,7 @@ function Projects() {
               </div>
               <div className="Project3">
                 <a href="https://thangnt336.github.io/Code-Quiz/" target="_blank">
-                  <img src="/Thang-React-Portfolio/images/codequiz.png" alt="Coding Quiz" style={{width:262 , height:150}}></img>
+                  <img src={codequiz} alt="Coding Quiz" style={{width:262 , height:150}}></img>
                   <div className="overlay1">
                     <div className="text">Coding Quiz</div>
                   </div>
@@ -47,7 +53,7 @@ function Projects() {
             <content className="container2">
               <div className="Project4">
                 <a href="https://thangnt336.github.io/Password-Generator/" target="_blank">
-                  <img src="/Thang-React-Portfolio/images/password.png" alt="Password Generator" style={{width:262 , height:150}}></img>
+                  <img src={password} alt="Password Generator" style={{width:262 , height:150}}></img>
                   <div className="overlay1">
                     <div className="text">Password Generator</div>
                   </div>
@@ -55,7 +61,7 @@ function Projects() {
               </div>
               <div className="Project5">
                 <a href="https://thangnt336.github.io/Work-Day-Scheduler/" target="_blank">
-                  <img src="/Thang-React-Portfolio/images/workday.png" alt="Work Day Scheduler" style={{width:262 , height:150}}></img>
+                  <img src={workday} alt="Work Day Scheduler" style={{width:262 , height:150}}></img>
                   <div className="overlay1">
                     <div className="text">Work Day Scheduler</div>
                   </div>
