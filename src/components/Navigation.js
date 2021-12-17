@@ -6,7 +6,7 @@ function Navigation() {
       <header>
       <nav>
         <div class="menu">
-          <h3>Thang Nguyen</h3>
+          <h3>Chris Nguyen</h3>
         </div>
         <ul class="links">
           <li><a href="#about">About</a></li>
