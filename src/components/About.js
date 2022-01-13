@@ -7,7 +7,7 @@ function About() {
         <h2>About</h2>
     <div className="aboutMe">
         <img src={headshot} alt="My Head"/>
-        <p>Welcome to my page! My name is Chris and I'm currently a freelance web developer. If you need any websites designed and built, I'm your guy.</p>
+        <p>Welcome to my page! My name is Chris and I'm currently a freelance web developer. <br></br>If you need any websites designed and built, I'm your guy.</p>
           </div>
     </section>
     );
