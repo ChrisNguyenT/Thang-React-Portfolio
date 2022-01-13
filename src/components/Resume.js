@@ -1,5 +1,5 @@
 import React from "react";
-import ResumeThang from "./ResumeThang.pdf"
+import ResumeThang from "./Chris_Nguyen_Resume.pdf"
 
 function Resume() {
     return (
