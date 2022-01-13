@@ -34,7 +34,7 @@ function Projects() {
           
             <content className="container1">
               <div className="Project2">
-                <a href="https://thangnt336.github.io/Weather-Dashboard/" target="_blank">
+                <a href="https://chrisnguyent.github.io/Weather-Dashboard/" target="_blank">
                   <img src={weather} alt="Weather Dashboard" style={{width:262 , height:150}}></img>
                   <div className="overlay1">
                     <div className="text">Weather Dashboard</div>
@@ -42,7 +42,7 @@ function Projects() {
                 </a>
               </div>
               <div className="Project3">
-                <a href="https://thangnt336.github.io/Code-Quiz/" target="_blank">
+                <a href="https://chrisnguyent.github.io/Code-Quiz/" target="_blank">
                   <img src={codequiz} alt="Coding Quiz" style={{width:262 , height:150}}></img>
                   <div className="overlay1">
                     <div className="text">Coding Quiz</div>
@@ -52,7 +52,7 @@ function Projects() {
             </content>
             <content className="container2">
               <div className="Project4">
-                <a href="https://thangnt336.github.io/Password-Generator/" target="_blank">
+                <a href="https://chrisnguyent.github.io/Password-Generator/" target="_blank">
                   <img src={password} alt="Password Generator" style={{width:262 , height:150}}></img>
                   <div className="overlay1">
                     <div className="text">Password Generator</div>
@@ -60,7 +60,7 @@ function Projects() {
                 </a>
               </div>
               <div className="Project5">
-                <a href="https://thangnt336.github.io/Work-Day-Scheduler/" target="_blank">
+                <a href="https://chrisnguyent.github.io/Work-Day-Scheduler/" target="_blank">
                   <img src={workday} alt="Work Day Scheduler" style={{width:262 , height:150}}></img>
                   <div className="overlay1">
                     <div className="text">Work Day Scheduler</div>
@@ -73,12 +73,12 @@ function Projects() {
         <content className="container3">
           <h4 className="repository" onClick={openList1}>View Repositories</h4>
           <ol id="ollist" style={{display: "none"}}>
-            <li><a href="https://github.com/thangnt336/-tock-News" target="_blank">/$tock News</a></li>
+            <li><a href="https://github.com/ChrisNguyenT/-tock-News" target="_blank">/$tock News</a></li>
             <li><a href="https://github.com/ChrisNguyenT/Vinyl-Is-Plural-For-Vinyl" target="_blank">/Vinyl is Plural for Vinyl</a></li>
-            <li><a href="https://github.com/thangnt336/Weather-Dashboard" target="_blank">/Weather Dashboard</a></li>
-            <li><a href="https://github.com/thangnt336/Code-Quiz" target="_blank">/Coding Quiz</a></li>
-            <li><a href="https://github.com/thangnt336/Password-Generator" target="_blank">/Password Generator</a></li>
-            <li><a href="https://github.com/thangnt336/Work-Day-Scheduler" target="_blank">/Work Day Scheduler</a></li>
+            <li><a href="https://github.com/ChrisNguyenT/Weather-Dashboard" target="_blank">/Weather Dashboard</a></li>
+            <li><a href="https://github.com/ChrisNguyenT/Code-Quiz" target="_blank">/Coding Quiz</a></li>
+            <li><a href="https://github.com/ChrisNguyenT/Password-Generator" target="_blank">/Password Generator</a></li>
+            <li><a href="https://github.com/ChrisNguyenT/Work-Day-Scheduler" target="_blank">/Work Day Scheduler</a></li>
           </ol>
         </content>
       </section>
