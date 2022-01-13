@@ -15,7 +15,7 @@ function Projects() {
         <div className="fouricons">
             <content className="container0">
           <div className="Project1">
-            <a href="https://github.com/thangnt336/-tock-News" target="_blank">
+            <a href="https://chrisnguyent.github.io/-tock-News/" target="_blank">
               <img src={stocknew} style={{width:262 , height:150}} className="firstPic" alt="$tock News"/>
               <div className="overlay1">
                 <div className="text">$tock News</div>
@@ -23,7 +23,7 @@ function Projects() {
             </a>
           </div>
           <div className="Project1">
-            <a href="https://github.com/ChrisNguyenT/Vinyl-Is-Plural-For-Vinyl" target="_blank">
+            <a href="https://vinylispluralforvinyl.herokuapp.com/" target="_blank">
               <img src={vinyl} style={{width:262 , height:150}} className="firstPic" alt="Vinyl"/>
               <div className="overlay1">
                 <div className="text">Vinyl is Plural for Vinyl</div>
