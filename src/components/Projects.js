@@ -1,7 +1,7 @@
 import React from "react";
 import stocknew from "./stocknew.png";
 import weather from "./weather.png";
-import employee from "./employee.png";
+import vinyl from "./vinyl.png";
 import codequiz from "./codequiz.png";
 import password from "./password.png";
 import workday from "./workday.png";
@@ -23,10 +23,10 @@ function Projects() {
             </a>
           </div>
           <div className="Project1">
-            <a href="https://github.com/thangnt336/Employee-Management-System" target="_blank">
-              <img src={employee} style={{width:262 , height:150}} className="firstPic" alt="Employee"/>
+            <a href="https://github.com/ChrisNguyenT/Vinyl-Is-Plural-For-Vinyl" target="_blank">
+              <img src={vinyl} style={{width:262 , height:150}} className="firstPic" alt="Vinyl"/>
               <div className="overlay1">
-                <div className="text">Employee Management</div>
+                <div className="text">Vinyl is Plural for Vinyl</div>
               </div>
             </a>
           </div>
@@ -74,7 +74,7 @@ function Projects() {
           <h4 className="repository" onClick={openList1}>View Repositories</h4>
           <ol id="ollist" style={{display: "none"}}>
             <li><a href="https://github.com/thangnt336/-tock-News" target="_blank">/$tock News</a></li>
-            <li><a href="https://github.com/thangnt336/Employee-Management-System" target="_blank">/Employee Management</a></li>
+            <li><a href="https://github.com/ChrisNguyenT/Vinyl-Is-Plural-For-Vinyl" target="_blank">/Vinyl is Plural for Vinyl</a></li>
             <li><a href="https://github.com/thangnt336/Weather-Dashboard" target="_blank">/Weather Dashboard</a></li>
             <li><a href="https://github.com/thangnt336/Code-Quiz" target="_blank">/Coding Quiz</a></li>
             <li><a href="https://github.com/thangnt336/Password-Generator" target="_blank">/Password Generator</a></li>
